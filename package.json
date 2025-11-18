@@ -1,0 +1,21 @@
+{
+  "name": "spotsave",
+  "version": "1.0.0",
+  "description": "SpotSave project",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "lessc css/style.less css/style.css",
+    "build:css:sourcemap": "lessc --source-map css/style.less css/style.css",
+    "watch:css": "nodemon --watch css/style.less --exec \"npm run build:css\"",
+    "watch:css:sourcemap": "nodemon --watch css/style.less --exec \"npm run build:css:sourcemap\"",
+    "dev": "npm run watch:css:sourcemap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.2.0",
+    "nodemon": "^3.0.2"
+  }
+}
+

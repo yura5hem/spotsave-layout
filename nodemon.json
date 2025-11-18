@@ -1,0 +1,8 @@
+{
+  "watch": ["css"],
+  "ext": "less",
+  "ignore": ["css/*.css", "css/*.css.map"],
+  "exec": "npm run build:css:sourcemap",
+  "verbose": true
+}
+

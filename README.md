@@ -60,3 +60,33 @@ npm run dev
 - `css/style.css` - скомпільований CSS файл (генерується автоматично)
 - `css/style.css.map` - source map файл (для відлагодки)
 
+## Деплой на Vercel через GitHub
+
+### 1. Создайте репозиторий на GitHub
+
+1. Перейдите на https://github.com/new
+2. Назовите репозиторий (например, `spotsave`)
+3. Не инициализируйте его (README, .gitignore уже есть)
+4. Нажмите "Create repository"
+
+### 2. Подключите локальный репозиторий к GitHub
+
+Выполните команды (замените `YOUR_USERNAME` на ваш GitHub username):
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/spotsave.git
+git branch -M main
+git push -u origin main
+```
+
+### 3. Деплой на Vercel
+
+1. Перейдите на https://vercel.com
+2. Войдите через GitHub
+3. Нажмите "Add New Project"
+4. Выберите репозиторий `spotsave`
+5. Vercel автоматически определит настройки (уже есть `vercel.json`)
+6. Нажмите "Deploy"
+
+После этого каждый `git push` будет автоматически обновлять сайт на Vercel!
+

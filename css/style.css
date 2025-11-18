@@ -760,16 +760,16 @@ a.close:hover {
   .content .music-info .right .progress button p {
     font-size: 24px;
   }
+  .content .music-info .right button.download {
+    height: 68px;
+    font-size: 23px;
+    font-weight: 300;
+  }
   .content .music-info .right .playlist .icon-num {
     font-size: 30px;
   }
   .content .music-info .right .playlist .capt {
     font-size: 14px;
-  }
-  .content .music-info .right .playlist button {
-    height: 68px;
-    font-size: 23px;
-    font-weight: 300;
   }
   .content .music-info .right .playlist ul li .info .text span {
     font-size: 22px;

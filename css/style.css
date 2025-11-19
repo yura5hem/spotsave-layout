@@ -641,7 +641,7 @@ a.close:hover {
     display: block;
   }
   body {
-    font-size: 22px;
+    font-size: 20px;
   }
   .container {
     max-width: 534px;
@@ -660,8 +660,8 @@ a.close:hover {
     display: none;
   }
   header .language .current span {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     background-size: 100%;
   }
   header .language .dropdown {
@@ -770,6 +770,12 @@ a.close:hover {
   }
   .content .music-info .right .playlist .capt {
     font-size: 14px;
+  }
+  .content .music-info .right .playlist .icon-check:before,
+  .content .music-info .right .playlist .icon-num:before {
+    width: 20px;
+    height: 20px;
+    margin-top: -12px;
   }
   .content .music-info .right .playlist ul li .info .text span {
     font-size: 22px;
